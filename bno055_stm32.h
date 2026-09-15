@@ -69,7 +69,7 @@ void bno055_writeData(uint8_t reg, uint8_t data) {
   if (state == HAL_I2C_STATE_RESET) {
     printf("HAL_I2C_STATE_RESET\r\n");
   } else if (state == HAL_I2C_STATE_READY) {
-    printf("HAL_I2C_STATE_RESET\r\n");
+    printf("HAL_I2C_STATE_READY\r\n");
   } else if (state == HAL_I2C_STATE_BUSY) {
     printf("HAL_I2C_STATE_BUSY\r\n");
   } else if (state == HAL_I2C_STATE_BUSY_TX) {
